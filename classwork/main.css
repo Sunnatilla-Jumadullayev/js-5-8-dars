@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  gap: 10px;
+}
+.card {
+  background-color: aquamarine;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  overflow: auto;
+  border-radius: 10px;
+}
+.card::-webkit-scrollbar {
+  width: 0;
+}
+ul {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(29, 60, 199);
+  padding: 20px 20px;
+
+  gap: 20px;
+}
+li {
+  font-family: sans-serif;
+  list-style: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+}
+h1 {
+  text-align: center;
+  margin: 20px auto 20px;
+}
+.email {
+  margin-top: 20px;
+}
+.address {
+  font-size: 12px;
+}
